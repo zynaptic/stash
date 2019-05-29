@@ -68,7 +68,7 @@ public final class StashFactoryCore implements StashFactory {
     Deferred<Boolean> deferredSetup = reactor.newDeferred();
     this.reactor = reactor;
     this.logger = reactor.getLogger("com.zynaptic.stash");
-    logger.log(Level.INFO, "Stash Asynchronous Persistence Framework (c)2009-2019 Zynaptic Ltd.\n"
+    logger.log(Level.INFO, "\n  Stash Asynchronous Persistence Framework (c)2009-2019 Zynaptic Ltd.\n"
         + "  For license terms see http://www.apache.org/licenses/LICENSE-2.0\n");
     deferredSetup.callback(true);
     return deferredSetup.makeRestricted();
