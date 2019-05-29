@@ -30,7 +30,7 @@ import com.zynaptic.stash.test.core.TimeSeriesStashTests;
  * 
  * @author Chris Holgate
  */
-public class TimeSeriesStashJunitTests extends TestCase {
+public class TimeSeriesStashTest extends TestCase {
 
   /**
    * Test basic time series stash functionality for simple integer objects.
